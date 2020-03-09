@@ -1,0 +1,42 @@
+body {
+  background-color: whitesmoke;
+}
+
+.products {
+  width: 75%;
+  height: 100%;
+  background-color: bisque;
+  position: absolute;
+  top: 0;
+  padding-left: 10%;
+  padding-top: 5%;
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: 250px 250px 250px;
+
+}
+
+.fruit {
+  flex: 1 0 21%;
+  margin: 5px;
+  height: 100px;
+  background-color: white;
+  border: 2px;
+}
+
+.fruit img {
+  max-width: 100%;
+}
+
+
+.basket {
+  width: 25%;
+  height: 100%;
+  background-color: blueviolet;
+  right: 0;
+  top: 0;
+  position: absolute;
+  padding-top: 1%;
+  text-align: center;
+}
+
